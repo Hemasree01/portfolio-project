@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>PORTFOLIO</h1>
+<hr>
+
+<h2>MY WORK</h2>
+
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="pics\5.jpg" alt="wolflake" style="width:100%">
+      <h3>WOLF LAKE</h3>
+      <p>Wolf Lake is an American supernatural drama television series that originally aired on CBS from September 19 to October 24, <u>2001</u>.
+           <b> paul wesley </b>casted as lucas "luke" cates</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="pics\8.jpg" alt="russell the girl" style="width:100%">
+      <h3>The Russell Girl</h3>
+      <p>The Russell Girl is a <u>2008</u> television movie directed by Jeff Bleckner. It premiered on the Hallmark Channel on January 27, 2008 and stars Amber Tamblyn as a young medical student who must come to terms with her past.
+            Paul Wesley  casted as Evan Carroll</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="pics\7.jfif" alt="the originals" style="width:100%">
+      <h3>THE ORIGINALS</h3>
+      <p><b>paul wesley</b> played the special appearence role in the originals webseries in <u>2016</u>. 
+            He casted as stefen salvatore.
+            It is a spin-off of The Vampire Diaries and the first television series expansion of the franchise based on its parent series</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="pics\9.jpg" alt="brothers" style="width:100%">
+      <h3>Telivision Shows</h3>
+      <p>Wesley has had a number of roles in television shows such as 24, 8 Simple Rules, American Dreams, Army Wives, Cane, Everwood, Guiding Light, Smallville, and The O.C..</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<div class="content">
+  <img src="pics\3.jpg" alt="vampire diaries" style="width:100%">
+  <h3>VAMPIRE DIARIES</h3>
+  <p><u>2009–2017</u></p>
+  <p><b>Wesley</b> starred as <b>Stefan Salvatore</b> in the hit television series The Vampire Diaries since its premiere in September 2009 on The CW. 
+       In the series, he played a younger brother to Damon Salvatore as well as the love interest of a 17-year-old girl named Elena Gilbert. 
+       His work garnered him two People’s Choice Award nominations.</p>
+   </div>
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>
